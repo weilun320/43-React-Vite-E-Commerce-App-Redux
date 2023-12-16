@@ -35,7 +35,7 @@ export function Layout() {
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/43-React-Vite-E-Commerce-App-Redux/">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
